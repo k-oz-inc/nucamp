@@ -13,12 +13,14 @@ $(function() {
     });
 });
 
+// Open Reservation Modal
 $(function() { 
     $("#reserveButton").click(function(){
                     $("#reserveModal").modal("show");
                 });
     });
-
+    
+// Open Login Modal
 $(function() { 
     $("#loginButton").click(function(){
                     $("#loginModal").modal("show");
